@@ -13,6 +13,9 @@
 		CA684C331E78D19600BAF50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA684C311E78D19600BAF50D /* Main.storyboard */; };
 		CA684C351E78D19600BAF50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA684C341E78D19600BAF50D /* Assets.xcassets */; };
 		CA684C381E78D19600BAF50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA684C361E78D19600BAF50D /* LaunchScreen.storyboard */; };
+		CA684C411E78D1AC00BAF50D /* SwizzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA684C401E78D1AC00BAF50D /* SwizzleViewController.m */; };
+		CA684C431E78D1E000BAF50D /* Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CA684C421E78D1E000BAF50D /* Swizzle.m */; };
+		CA684C461E78D61800BAF50D /* SwizzleSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA684C451E78D61800BAF50D /* SwizzleSubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		CA684C341E78D19600BAF50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA684C371E78D19600BAF50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA684C391E78D19600BAF50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA684C3F1E78D1AC00BAF50D /* SwizzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleViewController.h; sourceTree = "<group>"; };
+		CA684C401E78D1AC00BAF50D /* SwizzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleViewController.m; sourceTree = "<group>"; };
+		CA684C421E78D1E000BAF50D /* Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizzle.m; sourceTree = "<group>"; };
+		CA684C441E78D61800BAF50D /* SwizzleSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleSubViewController.h; sourceTree = "<group>"; };
+		CA684C451E78D61800BAF50D /* SwizzleSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleSubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,11 @@
 				CA684C2C1E78D19600BAF50D /* AppDelegate.m */,
 				CA684C2E1E78D19600BAF50D /* ViewController.h */,
 				CA684C2F1E78D19600BAF50D /* ViewController.m */,
+				CA684C3F1E78D1AC00BAF50D /* SwizzleViewController.h */,
+				CA684C401E78D1AC00BAF50D /* SwizzleViewController.m */,
+				CA684C441E78D61800BAF50D /* SwizzleSubViewController.h */,
+				CA684C451E78D61800BAF50D /* SwizzleSubViewController.m */,
+				CA684C421E78D1E000BAF50D /* Swizzle.m */,
 				CA684C311E78D19600BAF50D /* Main.storyboard */,
 				CA684C341E78D19600BAF50D /* Assets.xcassets */,
 				CA684C361E78D19600BAF50D /* LaunchScreen.storyboard */,
@@ -151,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA684C301E78D19600BAF50D /* ViewController.m in Sources */,
+				CA684C411E78D1AC00BAF50D /* SwizzleViewController.m in Sources */,
+				CA684C431E78D1E000BAF50D /* Swizzle.m in Sources */,
 				CA684C2D1E78D19600BAF50D /* AppDelegate.m in Sources */,
+				CA684C461E78D61800BAF50D /* SwizzleSubViewController.m in Sources */,
 				CA684C2A1E78D19600BAF50D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swizzle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJB.Swizzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swizzle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJB.Swizzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";

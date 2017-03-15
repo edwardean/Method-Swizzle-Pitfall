@@ -1,35 +1,36 @@
 //
-//  ViewController.m
+//  SwizzleViewController.m
 //  Swizzle
 //
 //  Created by lihang on 2017/3/15.
 //  Copyright © 2017年 shijiebang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SwizzleViewController.h"
 
-@interface ViewController ()
+@interface SwizzleViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SwizzleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-#if 0
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
 }
-#endif
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
 
 @end
